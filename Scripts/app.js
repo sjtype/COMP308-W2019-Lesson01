@@ -6,7 +6,8 @@
 
     function Start() { // named function
         let myLocalVariable = 0;
-        console.log(`App Started...${myFunctionalVariable}`); // use back ticks(``) instead of double quotation marks ("")
+        console.log(`%cApp Started...${myFunctionalVariable}`, 
+            "font-size: 20px; color:blue; font-weight: bold;"); // use back ticks(``) instead of double quotation marks ("")
         // injects value instead of concatenating
     }
 
